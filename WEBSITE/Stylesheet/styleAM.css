@@ -1,0 +1,361 @@
+/*	Author: Aisling O'Reilly  */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+	}
+
+body {
+	margin: 0% auto;		
+	background: #b30000;
+	background-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 90%;
+} 
+
+#banner {
+	margin: 0%;
+    padding: 0% 15% 0% 15%;	
+	background-color: #fff;
+}
+
+#navbar {
+	margin: -1% 0% 1% 0%;
+	text-align: center;
+	padding: 1% 2%;
+	background-color: #000033;
+}
+
+#navbar li {
+	margin: 1% 2%;
+	text-align: center;
+    vertical-align: middle;
+	display: inline-block;
+	padding: 1% 2%;
+	background-color: #00b33c;
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+
+#navbar ul {
+	list-style-type: none;
+	overflow: auto;
+}
+
+#navbar a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+#navbar li:hover {
+	background-color: #4700b3;
+}
+
+#content {
+	background-color: #ffffff;
+	color: #000;
+	margin: -.25% 5% 1% 5%;
+	padding: 2% 1%;
+	border: 2px solid #000;
+	border-radius: 6px;
+	text-align: center;
+	overflow: auto;
+}
+
+#content0 {
+	background-color: #ffff4d;
+	color: #000;
+	margin: -1.5% 5% 1% 5%;
+	padding: 2% 1% 2% 3%;
+	border: 2px solid #000;
+	border-top: none;
+	border-radius: 6px;
+	text-align: left;
+	overflow: auto;
+}
+
+#content1 {
+	background-color: #e6f7ff;
+	color: #000;
+	margin: -.25% 5% 1% 5%;
+	padding: 2% 1% 2% 3%;
+	border: 2px solid #000;
+	border-radius: 6px;
+	text-align: left;
+	overflow: auto;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+#footer {
+	background-color: #ffffff;
+	color: #000;
+	margin: 1% 5%;
+	padding: 2% 2% 0% 0%;
+	text-align: right;
+	border: 2px solid #000;
+	border-radius: 6px;
+	
+}
+
+#footer1 {
+	background-color: #ffffff;
+	color: #000;
+	margin: 1% 2%;
+	padding: 2% 2% 0% 0%;
+	text-align: right;
+	border: 2px solid #000;
+	border-radius: 6px;
+	
+}
+
+#footmenu {
+	color: #000;
+}
+
+#intro {
+	float: left;
+	width: 55%;
+	margin: 3% 1% 1% 4%;
+}
+
+#homepic {
+	float: right;
+	margin: 0% 5% 0% 2%;
+} 
+
+#column1, #column2, #column3  {
+	float: left;
+	width: 25%;
+	margin: 1% 3%;
+	text-align: center;
+	overflow: auto;
+}
+
+
+/*///////////////Services pages////////////////*/
+
+#panel, #flip, #panel1, #flip1, #panel2, #flip2, #panel3, #flip3, #panel4, #flip4, #panel5, #flip5, #panel6, #flip6, #panel7, #flip7 {
+	padding: 2.5% 1%;
+	margin: 5% 0%;
+	text-align: center;
+	/*background-color: #e6f7ff;*/
+	background-color: #c3c3c3;
+	border: solid 2px #808080;
+	border-radius: 5px;
+}
+			
+#panel, #panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7 {
+	display: none;
+	margin-bottom: 2.5%;
+	margin-top: -5%;
+	overflow: auto;
+	padding: 3% 2% 3% 2%;
+}
+
+#flip:hover, #flip1:hover, #flip2:hover, #flip3:hover, #flip4:hover, #flip5:hover, #flip6:hover, #flip7:hover {
+	color: #fff;
+	background-color: #002699;
+	border: 2px solid #000;
+}
+
+#content2 {
+	background-color: #ffffff;
+	color: #000;
+	margin: -.25% 2% 1% 2%;
+	padding: 2% 1%;
+	border: 2px solid #000;
+	border-radius: 6px;
+	text-align: center;
+	overflow: auto;
+}
+
+#col1{
+	margin: 2% 0% 0% 2%;
+	float: left;
+	width: 40%;
+	overflow: auto;	
+}
+
+#col2{
+	margin: 0% 2% 0% 2%;
+	float: right;
+	padding: 2% 0%;
+	text-align: left;
+	width: 50%;
+}
+
+#servpic {
+	float: right;
+	margin: -2% 12% 0% 1%;
+} 
+
+
+/*///////////////Benefits pages////////////////*/
+
+#benefits {
+	float: left;
+	margin: 1% 2% 1% 3%;
+	padding: 2%;
+	text-align: left;
+	width: 45%;
+	overflow: auto;
+} 
+
+#testimonial {
+	float: right;
+	margin: 1% 2% 1% 0%;
+	padding: 1%;
+	text-align: left;
+	width: 40%;
+	overflow: auto;
+} 
+
+#benpic {
+	float: right;
+	margin: 2% 3% 1% 2%;
+	padding: 0%;
+	border: 1px solid #000;
+} 
+
+#benpictest {
+	float: right;
+	margin: 1% 3% 1% 2%;
+	padding: 0%;
+	border: 1px solid #000;
+} 
+
+#benpic1 {
+	float: right;
+	margin: 1% 6% 0% 2%;
+	padding: 0%;
+	border: 1px solid #000;
+} 
+
+.checklist {
+	list-style-type: none;
+	margin: 0 0 0 .6em;
+}
+
+.checklist li.tick:before {
+	content: "\2714";
+}
+
+.checklist li:before {
+  position: absolute;
+  margin-left: -1.3em;
+}
+
+
+/*///////////////About page////////////////*/
+
+#profpic {
+	float: left;
+	margin: -1% 1% 1% 7%;
+	padding: 0%;
+	border: 1px solid #000;
+} 
+
+#about {
+	float: right;
+	margin: 2% 6% 2% 1%;
+	width: 65%;
+}
+
+#about2 {
+	clear: left;
+	clear: right;
+	float: center;
+	margin: 2% 5%;
+	width: 90%;
+}
+
+
+/*///////////////Contact page///////////////*/
+
+input[type=text] {
+	border: 1px solid #000;
+	border-radius: 2px;
+	margin: 0% 0% 1% 0%;
+	min-height: 30px;
+}
+
+.form-control {
+	border: 1px solid #000;
+	border-radius: 2px;
+	margin: 0% 0% 1% 0%;
+    min-height: 60px;
+	min-width: 100%;
+    resize: none;
+}
+
+input[type=email] {
+	border: 1px solid #000;
+	margin: 1%;
+    min-height: 30px;
+    resize: none;
+}
+	
+
+.form1 {
+	float: right;
+	text-align: left;
+	margin: 2% 8% 1% 2%;
+	padding: 0% 1% 1% 1%;
+	max-width: 30%;
+} 
+
+
+.smallbtn{
+	padding: 4% 8%;	
+	background-color: #00b33c;
+	margin: 1%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.smallbtn:hover {
+	background-color: #002699;	
+}
+
+#main{
+	padding: 3% 10% 3% 10%;
+	width: 40%;	
+	margin: 0% 0% 1% 0%;
+}
+
+#condet{
+	margin: 2% 2% 4% 2%;
+	float: left;	
+	width: 40%;
+}
+
+textarea  
+{  
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 90%;
+}
+
+#btn{
+	padding: 1% 2%;	
+	background-color: #00b33c;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	width: 10%;
+	margin: auto;
+}
